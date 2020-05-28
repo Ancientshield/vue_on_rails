@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
+    <v-app>
+      <p>{{ message }}</p>
+      <layout />
+    </v-app>
   </div>
 </template>
 
 <script>
-export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
-  }
-}
-</script>
+import layout from "./packs/components/layout.vue";
 
-<style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
-</style>
+export default {
+  data: function() {
+    return {
+      message: "Hello Vue!",
+    };
+  },
+  components: {
+    layout: layout,
+  },
+};
+</script>
