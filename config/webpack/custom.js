@@ -1,4 +1,5 @@
 module.exports = {
+  devtool: false,
   rules: [
     {
       test: /\.s(c|a)ss$/,
