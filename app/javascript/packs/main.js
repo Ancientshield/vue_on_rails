@@ -1,8 +1,9 @@
 import Vue from "vue";
+import TurbolinksAdapter from "vue-turbolinks";
 import Vuetify from "vuetify";
 import App from "../app.vue";
 
-Vue.use(Vuetify);
+Vue.use(Vuetify, TurbolinksAdapter);
 
 document.addEventListener("DOMContentLoaded", () => {
   const app = new Vue({
