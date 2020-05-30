@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
+import "../src/application.scss";
 import App from "../app.vue";
 
 Vue.use(Vuetify);
