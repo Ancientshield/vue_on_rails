@@ -1,3 +1,4 @@
+<!--
 <template>
   <v-app>
     <p>{{ message }}</p>
@@ -19,3 +20,4 @@ export default {
   },
 };
 </script>
+-->
