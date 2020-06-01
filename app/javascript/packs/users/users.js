@@ -1,5 +1,5 @@
-import Vue from "vue";
-import UsersNewView from "views/users/new";
+import Vue from "vue/dist/vue.js";
+import UsersNewView from "users/new";
 
 new Vue({
   el: "#users-new-view",
