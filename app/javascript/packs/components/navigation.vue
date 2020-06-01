@@ -1,7 +1,8 @@
 <template>
-  <!-- This is the html-esque code used to define the layout. Note the syntax difference in assigning variable attributes -->
-  <div class="navigation-bar">
-    <a class="navigation-item" :href="link.path">{{link.text}}</a>
+  <div id="app">
+    <div class="navigation-bar">
+      <a class="navigation-item" :href="link.path">{{link.text}}</a>
+    </div>
   </div>
 </template>
 

@@ -1,10 +1,8 @@
 <template>
-  <div id="app">
-    <v-app>
-      <p>{{ message }}</p>
-      <layout />
-    </v-app>
-  </div>
+  <v-app>
+    <p>{{ message }}</p>
+    <layout></layout>
+  </v-app>
 </template>
 
 <script>

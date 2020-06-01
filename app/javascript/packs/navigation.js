@@ -1,10 +1,8 @@
-import Vue from "vue";
-import NavigationApp from "./components/navigation.vue";
+// import Vue from "vue";
+// import navigation from "./packs/components/navigation.vue";
 
-document.addEventListener("turbolinks:load", () => {
-  const app = new Vue({
-    render: (h) => h(NavigationApp),
-  }).$mount();
-
-  document.body.insertBefore(app.$el, document.body.firstChild);
-});
+// document.addEventListener("turbolinks:load", () => {
+//   const app = new Vue({
+//     el: '[data-behavior="vue-app"]',
+//   });
+// });
