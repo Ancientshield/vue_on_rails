@@ -18,13 +18,11 @@
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
     "vuetify": "^2.2.30",
-    "vuetify-loader": "^1.4.4"
+    "vuetify-loader": "^1.4.4",
+    "webpack": "^4.43.0"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
-  },
-  "engines": {
-    "node": "14.3.0"
   }
 }
