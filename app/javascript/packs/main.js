@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
-// import Layout from "./components/Layout";
+import Layout from "./components/Layout";
 import Navigation from "./components/Navigation";
 import User from "./components/User";
 
@@ -11,7 +11,7 @@ document.addEventListener("turbolinks:load", () => {
     el: '[data-behavior="vue-app"]',
     vuetify: new Vuetify(),
     components: {
-      // Layout,
+      Layout,
       Navigation,
       User,
     },
