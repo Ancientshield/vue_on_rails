@@ -1,7 +1,6 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
-// import App from "../app.vue";
-import layout from "./components/layout.vue";
+import Layout from "./components/Layout";
 
 Vue.use(Vuetify);
 
@@ -9,7 +8,6 @@ document.addEventListener("turbolinks:load", () => {
   const app = new Vue({
     el: '[data-behavior="vue-app"]',
     vuetify: new Vuetify(),
-    components: { layout },
+    components: { Layout },
   });
-  // document.body.appendChild(app.$el);
 });
