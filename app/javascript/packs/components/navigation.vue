@@ -1,8 +1,6 @@
 <template>
-  <div id="app">
-    <div class="navigation-bar">
-      <a class="navigation-item" :href="link.path">{{link.text}}</a>
-    </div>
+  <div class="navigation-bar">
+    <a class="navigation-item" :href="link.path">{{link.text}}</a>
   </div>
 </template>
 
