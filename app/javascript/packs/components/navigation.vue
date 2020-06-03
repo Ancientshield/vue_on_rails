@@ -1,6 +1,6 @@
 <template>
   <div class="navigation-bar">
-    <a class="navigation-item" :href="link.path">{{link.text}}</a>
+    <a class="navigation-item" :href="link.path">{{ link.text }}</a>
   </div>
 </template>
 
@@ -13,10 +13,10 @@ export default {
       link: {
         path: "/",
         text: "Home",
-        id: 1
-      }
+        id: 1,
+      },
     };
-  }
+  },
 };
 </script>
 
