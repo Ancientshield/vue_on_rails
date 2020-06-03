@@ -1,8 +1,8 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
-import Layout from "components/Layout";
-import User from "components/User";
-import Navigation from "components/Navigation";
+import Layout from "./components/Layout";
+import User from "./components/User";
+import Navigation from "./components/Navigation";
 
 Vue.use(Vuetify);
 
