@@ -10,6 +10,7 @@ const resolver = {
     alias: {
       vue$: "vue/dist/vue.esm.js",
     },
+    extensions: ["*", ".js", ".vue", ".json"],
   },
 };
 environment.config.merge(resolver);
