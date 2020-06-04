@@ -1,8 +1,9 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
-import Layout from "./components/Layout";
-import Navigation from "./components/Navigation";
-import User from "./components/User";
+import "material-design-icons-iconfont/dist/material-design-icons.css";
+import layout from "./components/layout.vue";
+import navigation from "./components/navigation.vue";
+import user from "./components/user.vue";
 
 Vue.use(Vuetify);
 
@@ -11,9 +12,9 @@ document.addEventListener("turbolinks:load", () => {
     el: '[data-behavior="vue-app"]',
     vuetify: new Vuetify(),
     components: {
-      Layout,
-      Navigation,
-      User,
+      layout,
+      navigation,
+      user,
     },
   });
 });
