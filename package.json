@@ -28,8 +28,8 @@
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
   },
-  "scripts": {
-    "start": "node main.js",
-    "heroku-postbuild": "webpack -p"
+  "engines": {
+    "node": "14.3.0",
+    "yarn": "1.22.4"
   }
 }
