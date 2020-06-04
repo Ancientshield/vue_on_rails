@@ -12,9 +12,9 @@ document.addEventListener("turbolinks:load", () => {
     el: '[data-behavior="vue-app"]',
     vuetify: new Vuetify(),
     components: {
-      layout,
-      navigation,
-      user,
+      // layout,
+      // navigation,
+      // user,
     },
   });
 });
