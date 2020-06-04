@@ -29,7 +29,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node main.js",
     "heroku-postbuild": "webpack -p"
   }
 }
