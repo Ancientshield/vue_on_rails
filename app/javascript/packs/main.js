@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
+import "material-design-icons-iconfont/dist/material-design-icons.css";
 import "@mdi/font/css/materialdesignicons.css";
 import layout from "./components/layout.vue";
 import navigation from "./components/navigation.vue";
