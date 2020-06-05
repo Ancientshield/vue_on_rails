@@ -4,6 +4,7 @@ import "material-design-icons-iconfont/dist/material-design-icons.css";
 import layout from "./components/layout.vue";
 import navigation from "./components/navigation.vue";
 import user from "./components/user.vue";
+import myfooter from "./components/myfooter.vue";
 
 Vue.use(Vuetify);
 
@@ -15,6 +16,7 @@ document.addEventListener("turbolinks:load", () => {
       layout,
       navigation,
       user,
+      myfooter,
     },
   });
 });
